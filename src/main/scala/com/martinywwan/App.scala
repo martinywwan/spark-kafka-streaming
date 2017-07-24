@@ -5,13 +5,15 @@ import org.apache.log4j.{Level, Logger}
 
 /**
   * Simple Spark streaming application to subscribe to Kafka topics
+  * Created by Martin (Yew Wing) Wan
   */
 object App {
 
-  Logger.getLogger("org").setLevel(Level.OFF)
-  Logger.getLogger("akka").setLevel(Level.OFF)
+  Logger.getLogger("org").setLevel(Level.OFF) //remove debug logs
+  Logger.getLogger("akka").setLevel(Level.OFF) //remove debug logs
 
-  /**Subscribes and publishes to Kafka
+  /**Subscribes to Kafka topics
+    * TODO - publish to Kafka, retrieve RDD based on offset
     *
     * @param args TODO - define Kafka details
     */

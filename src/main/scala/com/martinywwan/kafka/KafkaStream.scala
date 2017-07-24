@@ -11,7 +11,7 @@ import org.apache.spark.streaming.{Duration, StreamingContext}
 class KafkaStream {
   val sparkConf = new SparkConf().setMaster("local[*]").setAppName("KafkaStreamingUsingSpark").set("spark.driver.allowMultipleContexts", "true")
   val sparkStreamingContext = new StreamingContext(sparkConf, Duration.apply(10000)) //10 second intervals
-//  sparkStreamingContext.checkpoint("checkpoint")
+//  sparkStreamingContext.checkpoint("checkpoint") --checkpoint location
 
   /**
     * Subscribe to real-time Kafka messages
