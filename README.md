@@ -1,18 +1,18 @@
-# scala-spark-kafka-streaming <br />
+### scala-spark-kafka-streaming ### <br />
 <br />
-## Synopsis <br />
+## Synopsis ## <br />
 <br />
 A basic Apache Spark Streaming application <br /> 
 <br />
-## Motivation <br /> 
+## Motivation ## <br /> 
 <br />
 The motivation behind this project was to provide support to developers and researchers in using Apache Spark Streaming with Apache Kafka. <br />
 <br />
-## Execution <br />
+## Execution ## <br />
 <br />
 Prerequisites: <br />
 1) Ensure Hadoop is setup i.e. ${HADOOP_CONF_DIR} and ${HADOOP_HOME} are set <br />
-2)${HADOOP_HOME}/bin/winutils.exe exists otherwise you will get the error *Failed to locate the winutils binary in the hadoop binary path* <br />
+2)${HADOOP_HOME}/bin/winutils.exe must exist otherwise you will get the error _Failed to locate the winutils binary in the hadoop binary path_ <br />
 3) Ensure Kafka is setup (https://kafka.apache.org/quickstart) <br />
 <br />
 Instructions to run: <br />
