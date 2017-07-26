@@ -1,4 +1,5 @@
-### scala-spark-kafka-streaming ### <br />
+scala-spark-kafka-streaming <br />
+=============
 <br />
 ## Synopsis ## <br />
 <br />
