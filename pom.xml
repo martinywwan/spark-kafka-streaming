@@ -4,13 +4,6 @@
   <artifactId>spark-kafka-streaming</artifactId>
   <version>0.1</version>
   <name>${project.artifactId}</name>
-  <licenses>
-    <license>
-      <name>My License</name>
-      <url>http://....</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
 
   <properties>
     <maven.compiler.source>1.5</maven.compiler.source>
