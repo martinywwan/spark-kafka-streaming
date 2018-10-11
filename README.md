@@ -3,19 +3,16 @@ Near real-time streaming using Apache Spark and Apache Kafka <br />
 <br />
 
 ## Synopsis <br />
----------------
 <br />
 A basic Apache Spark Streaming application <br /> 
 <br />
 
 ## Motivation <br /> 
----------------
 <br />
 The motivation behind this project was to provide support to developers and researchers in using Apache Spark Streaming with Apache Kafka. <br />
 <br />
 
 ## Execution <br />
----------------
 <br />
 Prerequisites: <br />
 1) Ensure Hadoop is setup i.e. ${HADOOP_CONF_DIR} and ${HADOOP_HOME} are set <br />
