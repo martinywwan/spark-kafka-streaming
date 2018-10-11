@@ -1,4 +1,4 @@
-scala-spark-kafka-streaming <br />
+Near real-time streaming using Apache Spark and Apache Kafka <br />
 =============
 <br />
 Synopsis <br />
